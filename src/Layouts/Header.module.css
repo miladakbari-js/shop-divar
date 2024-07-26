@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid rgb(234, 234, 234);
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 45px;
+  margin-left: 40px;
+}
+.header div {
+  display: flex;
+}
+.header span {
+  display: flex;
+  align-items: center;
+  color: gray;
+  height: 50px;
+}
+.header span p {
+  margin-right: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.button {
+  background-color: #a62626;
+  color: #fff;
+  height: 40px;
+  width: 80px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+.exit {
+  background: none;
+  width: 25px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+}
+.menubar {
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  margin-right:auto;
+  width: 60px;
+  height: 50px;
+}
+.menubar> img{
+    width: 25px;
+}
+
+.menuitems {
+  position: absolute;
+  flex-direction: column;
+  margin-top: 40px;
+  width: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+  top: 1px;
+}
+.menuitems div {
+  margin: 10px 20px;
+  cursor: pointer;
+  padding: 10px;
+  display: none;
+}
+
+.menubar:hover .menuitems div {
+  display: block;
+}
